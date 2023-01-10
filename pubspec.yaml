@@ -40,10 +40,24 @@ dependencies:
   firebase_core: 
   firebase_storage:
   cloud_firestore: 
+  # validation_extensions:
+  provider:
+  flutter_native_splash:
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/img.jpg
+  color_dark: "#ffffff"
+  image_dark: assets/images/img.jpg
+
+  android_12:
+    image: assets/images/img.jpg
+    icon_background_color: "#ffffff"
+    image_dark: assets/images/img.jpg
+    icon_background_color_dark: "#ffffff"
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
